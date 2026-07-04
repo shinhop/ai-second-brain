@@ -1,0 +1,9 @@
+.DS_Store
+.claude/
+.claudian/
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/plugins/*/data.json
+
+# Nested git repos (plugin dev checkouts, not vault content)
+**/.obsidian/plugins/claudian/
