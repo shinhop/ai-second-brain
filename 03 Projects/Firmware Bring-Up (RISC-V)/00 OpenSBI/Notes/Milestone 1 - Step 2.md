@@ -40,9 +40,14 @@ The CSR are Control and Status Registers. Those are a separated bank of register
 #### Address encoding
 Those registers have 12bit addresses and the encoding is as follows
 * csr[11:10] -> Access permission: R, W, R/W
-* csr
+* csr[9:8] -> Minimal privilege mode (U, S , M)
+* csr[7:0] -> Address value
+
+## Chapter 3 - Notes
+M-Mode is the first mode that is entered at reset.
+
 #### Interesting takes:
 * Userspace  Application runs in U-Mode and when needs to escalate privileges uses syscalls for the kernel to execute that particular request in S-Mode. If the kernel needs to do machine level operations it uses the SBI Ecalls to escalte priviledges and request a particular operation in M-Mode
 * M-mode is the only mandatory mode as it is the only that can perform high privilege low level operations meaning interact directly with the hardware.
-* CSR are special registers to configure the CPU. The address itself has encoded which privilege level can interact with the register.
+* CSR are special registers to configure the CPU. The address itself has encoded which privilege level can interact with the register. The have an special 12bits address encoding which specifies permitted R/W operation and Minimal privilege level 
 
