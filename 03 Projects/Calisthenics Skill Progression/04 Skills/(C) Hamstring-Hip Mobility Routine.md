@@ -41,7 +41,7 @@ The part passive stretching alone won't give you — trains the nervous system t
 | Exercise                                                                                        | Sets | Working time / reps | Rest between sets |
 | ----------------------------------------------------------------------------------------------- | ---- | ------------------- | ----------------- |
 | Active pike compressions (seated, pull toes toward shins while actively lifting legs off floor) | 3    | 10s hold            | 30s               |
-| Standing active pike raises (kick-through style, controlled, no momentum)                       | 3    | 5 reps per side     | 30-45s            |
+| Seated active single-leg raise                                                                  | 3    | 5 reps per side     | 30-45s            |
 
 ## Progress tracking
 Log stretch depth/feel and any active-flexibility reps hit in `00 Session Logs/`. This doesn't need a separate template — a short daily note is enough; the weekly review is where it gets checked against progress on the straddle L-sit trigger.

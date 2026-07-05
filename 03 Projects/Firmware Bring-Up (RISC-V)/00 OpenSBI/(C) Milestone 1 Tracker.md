@@ -12,11 +12,11 @@ started: 2026-07-04
 
 ## Quick Glance
 
-**Progress: 0/9 steps closed**
+**Progress: 1/9 steps closed**
 
 | Step | Status |
 |---|---|
-| 1 — Toolchain + QEMU setup | Not started |
+| 1 — Toolchain + QEMU setup | Done |
 | 2 — Ground the mental model | Not started |
 | 3 — Clone OpenSBI, read before building | Not started |
 | 4 — Build for the `generic` platform | Not started |
@@ -39,17 +39,17 @@ started: 2026-07-04
 ---
 
 ## Step 1 — Toolchain + QEMU setup
-**Status:** Not started
+**Status:** Done
 
 **Task:** Install `riscv64-unknown-elf-gcc` (or linux-gnu variant) and `qemu-system-riscv64`. Verify both run (`--version`).
 
 **Why:** Everything downstream depends on this. Mechanical, not learning — get it out of the way fast.
 
 **Acceptance Criteria:**
-- [ ] `riscv64-unknown-elf-gcc --version` (or linux-gnu variant) runs without error
-- [ ] `qemu-system-riscv64 --version` runs without error and reports a version supporting `-M virt`
+- [x] `riscv64-unknown-elf-gcc --version` (or linux-gnu variant) runs without error
+- [x] `qemu-system-riscv64 --version` runs without error and reports a version supporting `-M virt`
 
-**Your Notes:** _(link here once created)_
+**Your Notes:** [[Milestone 1 - Step 1]]
 
 ---
 
@@ -189,3 +189,4 @@ Confirm you see the OpenSBI banner (version, platform, extensions).
 _Dated entries as steps close or the plan gets adjusted._
 
 - **2026-07-04** — Tracker created. Step 1 next.
+- **2026-07-05** — Step 1 done. Toolchain (`riscv64-unknown-linux-gnu-gcc` 16.1.0) and QEMU (11.0.2) verified working; `virt` machine confirmed present via `qemu-system-riscv64 -M help`. See [[00 OpenSBI/Notes/Milestone 1 - Step 1.md]].
