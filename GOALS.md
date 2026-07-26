@@ -90,3 +90,6 @@ Decided on a **bottom-up sequence, milestone-gated rather than calendar-gated**,
 ## Open Questions / Revisit Points
 - No calendar checkpoints by design — revisit when a milestone is claimed "done" to sanity-check it wasn't called done prematurely (e.g. "it booted once" vs. actually understanding why).
 - If the Rust side-track stalls for a long time while system-knowledge milestones move fine, that's a signal it's safe to invest more there.
+
+## Related: Agent Harness Engineering
+Separate project (`03 Projects/Agent Harness Engineering/`), but tied to this firmware goal rather than being a standalone curiosity: learning how hierarchical LLM agent orchestration harnesses work, hands-on, via a simulated semiconductor company (Product Leader → Component Technical Leaders → Implementer/Reviewer pairs). The end goal is applying a working version of this pattern at the day job to make firmware development more efficient — the simulation is a low-stakes proving ground, not the actual point. Milestone-gated, same reasoning as the rest of this section. See that project's Milestone Plan for the full phased breakdown (Phase 1: learn the harness landscape and pick a stack; Phase 2: build the hierarchy hands-on).

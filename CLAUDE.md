@@ -45,7 +45,8 @@ personal_improvement/
 ├── 03 Projects/                                  ← Individual projects
 │   ├── (PROJECT TEMPLATE)/                       ← Template for new projects
 │   ├── Calisthenics Skill Progression/           ← L-Sit, Muscle Up, Handstand skill training
-│   └── Firmware Bring-Up (RISC-V)/               ← Bottom-up RISC-V firmware stack: OpenSBI → U-Boot → Kernel → Userspace → Coreboot/EDK2
+│   ├── Firmware Bring-Up (RISC-V)/               ← Bottom-up RISC-V firmware stack: OpenSBI → U-Boot → Kernel → Userspace → Coreboot/EDK2
+│   └── Agent Harness Engineering/                ← Hierarchical LLM agent orchestration, hands-on via simulated semiconductor company org chart
 ├── 04 Reviews/                                   ← Weekly/periodic reviews
 └── 05 Skills/                                    ← Claude skills (brain-setup, new-project, weekly-review, etc.)
 ```
@@ -96,3 +97,7 @@ Skill-based training project to systematically achieve L-Sit, Muscle Up, and Han
 ### Firmware Bring-Up (RISC-V) — `03 Projects/Firmware Bring-Up (RISC-V)/`
 **Status:** Just created
 Bottom-up, milestone-gated firmware project: OpenSBI → U-Boot → Linux kernel → userspace → Coreboot/EDK2, on QEMU first with a real board planned later. Currently on Milestone 1: OpenSBI.
+
+### Agent Harness Engineering — `03 Projects/Agent Harness Engineering/`
+**Status:** Just created
+Hands-on project learning hierarchical LLM agent orchestration by simulating a semiconductor company org chart (Product Leader → Component Technical Leaders → Implementer/Reviewer). Tied to the firmware career goal — end target is applying this at work. Phase 1 (learn the harness landscape, pick a stack) active; Phase 2 is the hands-on build.
